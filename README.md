@@ -14,15 +14,15 @@ Modern, realtime, minimalist Command & Control server built in Go with PocketBas
 ## 📋 Description
 Black Obsidian is a next-generation C2 (Command & Control) server designed for professional Red Team operations. Built with Go and PocketBase, it offers a modern and specialized alternative to complex C2 servers while maintaining agility, security, and customization ease.
 
-Part of the LazyOwn ecosystem, Black Obsidian integrates seamlessly with implants such as:
+Part of the [LazyOwn](https://github.com/grisuno/LazyOwn) ecosystem, [Black Obsidian](https://github.com/grisuno/BlackObsidianC2) integrates seamlessly with implants such as:
 
-Black Basalt Beacon (Windows)
+[Black Basalt Beacon (Windows)](https://github.com/grisuno/beacon)
 
-Black Sand Beacon (Linux ELF)
+[Black Sand Beacon (Linux ELF)](https://github.com/grisuno/blacksandbeacon)
 
-Black Serpentine (Python)
+[Black Serpentine (Python)](https://github.com/grisuno/BlackSerpentine)
 
-Maleable Implant (Go Multi-Platform)
+[Maleable Implant (Go Multi-Platform)](https://github.com/grisuno/LazyOwn)
 
 ## ✨ Key Features
 - ✅ HTTPS/TLS Server with self-signed certificates
@@ -230,13 +230,21 @@ Medium: @lazyown.redteam
 
 ## 🔗 Related Projects
 
-- LazyOwn - Full RedTeam Framework
+- [LazyOwn - Full RedTeam Framework](https://github.com/grisuno/LazyOwn)
 
-- Black Basalt Beacon - Windows Implant
+- [Black Basalt Beacon - Windows Implant](https://github.com/grisuno/beacon)
 
-- Black Sand Beacon - Linux Implant
+- [Black Sand Beacon - Linux Implant](https://github.com/grisuno/blacksandbeacon)
 
-- Black Serpentine - Python Implant
+- [Black Serpentine - Python Implant](https://github.com/grisuno/BlackSerpentine)
+
+- [Maleable Implant](https://github.com/grisuno/LazyOwn)
+
+- [LazyLoader](https://github.com/grisuno/LazyLoader/)
+
+- [CompressLoader Only for Patreons](https://github.com/grisuno/CompressLoader)
+
+- [Pro Bof's for Black Basalt Beacon Only for patreons](https://github.com/grisuno/probofs) loader.x64.o loader_fluc.x64.o shellcodeloader.x64.o sudo.x64.o getsystem.x64.o (and their soources)
 
 ## 📞 Support
 For issues, questions, or suggestions:
@@ -245,10 +253,11 @@ Open an Issue
 
 Start a Discussion
 
-Email: tu-email@example.com
-
 Built with ⬛ obsidian by LazyOwn Red Team operators, for the world Red Team operators.
 
+## ☕  Ko-fi: [ko-fi.com/grisuno](https://ko-fi.com/grisuno) (Buy me coffee. I’ll use it to compile more BOFs that vanish mid-execution.)
+## 💛 Patreon: [https://www.patreon.com/c/LazyOwn](https://www.patreon.com/c/LazyOwn)
+## 🎙️ Podcast: [https://www.podbean.com/ew/pb-gyy75-199a35d](https://www.podbean.com/ew/pb-gyy75-199a35d)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
