@@ -22,7 +22,7 @@ const (
     MaxCommandSize = 5000
     MaxOutputSize  = 100000
     MaxFileSize    = 104857600
-	SessionsDir    = "./sessions"
+	SessionsDir    = "/home/grisun0/LazyOwn/sessions"
 )
 
 var validClientIDRegex = regexp.MustCompile(`^[a-zA-Z0-9_-]{1,100}$`)
