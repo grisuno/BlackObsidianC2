@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Black Obsidian C2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <div id="particles-js"></div>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">⬛ BLACK OBSIDIAN</a>
+            <div class="navbar-text ms-auto">
+                <span class="text-success" id="status">● Offline</span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid mt-5 pt-3">
+        <div class="row">
+            <!-- Stats Cards -->
+            <div class="col-md-3">
+                <div class="card bg-dark border-secondary">
+                    <div class="card-body">
+                        <h6 class="card-title text-muted">Active Implants</h6>
+                        <h2 class="text-success" id="implant-count">0</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark border-secondary">
+                    <div class="card-body">
+                        <h6 class="card-title text-muted">Pending Commands</h6>
+                        <h2 class="text-warning" id="command-count">0</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark border-secondary">
+                    <div class="card-body">
+                        <h6 class="card-title text-muted">Executed Commands</h6>
+                        <h2 class="text-info" id="executed-count">0</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark border-secondary">
+                    <div class="card-body">
+                        <h6 class="card-title text-muted">Total Results</h6>
+                        <h2 class="text-danger" id="results-count">0</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Implants Table -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card bg-dark border-secondary">
+                    <div class="card-header">
+                        <h5 class="mb-0">Connected Implants</h5>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-dark table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Client ID</th>
+                                    <th>Hostname</th>
+                                    <th>OS</th>
+                                    <th>IP Address</th>
+                                    <th>User</th>
+                                    <th>Status</th>
+                                    <th>Last Seen</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="implants-list">
+                                <tr><td colspan="8" class="text-center text-muted">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
