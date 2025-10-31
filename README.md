@@ -63,8 +63,8 @@ go get github.com/pocketbase/pocketbase
 1. Clone Repository
 
 ```bash
-git clone https://github.com/tu-usuario/black-obsidian-c2.git
-cd black-obsidian-c2
+git clone https://github.com/grisuno/BlackObsidianC2.git
+cd BlackObsidianC2
 ```
 2. Generate SSL Certificates
 ```bash
@@ -73,7 +73,7 @@ openssl genpkey -algorithm RSA -out key.pem -pkeyopt rsa_keygen_bits:2048
 
 # Generate self-signed certificate
 openssl req -new -x509 -key key.pem -out cert.pem -days 365 \
-  -subj "/C=CL/ST=Santiago/L=Santiago/O=C2/CN=127.0.0.1"
+  -subj "/C=CL/ST=Hack/L=World/O=C2/CN=127.0.0.1"
 
 # Convert to PKCS#8 (required by Go)
 openssl pkcs8 -topk8 -nocrypt -in key.pem -out key_go.pem
@@ -97,12 +97,12 @@ https://127.0.0.1:4444/dashboard.html
 ```
 Create Admin User
 ```bash
-./c2-server superuser create admin@obsidian.local YourSecurePassword123!
+./c2-server superuser create LazyOwn@local.local LazyOwn
 ```
 Login Credentials
-Username: admin@obsidian.local
+Username: LazyOwn@loacl.local
 
-Password: YourSecurePassword123!
+Password: LazyOwn
 
 ## 📡 API Endpoints
 Endpoint	Method	Description
@@ -166,7 +166,14 @@ openssl rand -hex 32
 # Output: 18547a9428b62fdf2ba11cebc786bccbca8a941748d3acf4aad100ac65d0477f
 ```
 ## 📝 Usage Examples
-Issue Command
+
+### Issue Command
+
+```bash
+python3  app.py 
+```
+or manual
+
 ```bash
 curl -k -X POST https://127.0.0.1:4444/issue_command \
   -d "client_id=linux_go&command=whoami" \
@@ -258,6 +265,10 @@ Built with ⬛ obsidian by LazyOwn Red Team operators, for the world Red Team op
 ## ☕  Ko-fi: [ko-fi.com/grisuno](https://ko-fi.com/grisuno) (Buy me coffee. I’ll use it to compile more BOFs that vanish mid-execution.)
 ## 💛 Patreon: [https://www.patreon.com/c/LazyOwn](https://www.patreon.com/c/LazyOwn)
 ## 🎙️ Podcast: [https://www.podbean.com/ew/pb-gyy75-199a35d](https://www.podbean.com/ew/pb-gyy75-199a35d)
+## 🗄️ Hashnode: [https://lazyown.hashnode.dev/](https://lazyown.hashnode.dev/)
+## ✒️ Medium: [https://medium.com/@lazyown.redteam](https://medium.com/@lazyown.redteam)
+## 📡 Reddit: [https://www.reddit.com/r/LazyOwn/](https://www.reddit.com/r/LazyOwn/)
+## 🎞️ Youtube: [https://www.youtube.com/@KillerMonkyRecordz](https://www.youtube.com/@KillerMonkyRecordz)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
