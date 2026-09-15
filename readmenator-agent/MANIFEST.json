@@ -1,0 +1,24 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-15T02:29:48Z",
+  "project_root": "/tmp/push_BlackObsidianC2_20260914_220951",
+  "files": 7,
+  "symbols": 94,
+  "imports": 898,
+  "resolved_imports": 0,
+  "security_findings": 0,
+  "languages": {
+    "py": 1,
+    "go": 4,
+    "sh": 1,
+    "js": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
