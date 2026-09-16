@@ -1,0 +1,80 @@
+# Architecture
+
+## Internal Dependencies
+
+- (no internal resolved imports)
+
+## External Imports
+
+- `app.py` -> `PIL`
+- `app.py` -> `PIL`
+- `app.py` -> `csv`
+- `app.py` -> `datetime`
+- `app.py` -> `json`
+- `app.py` -> `os`
+- `app.py` -> `queue`
+- `app.py` -> `re`
+- `app.py` -> `requests`
+- `app.py` -> `threading`
+- `app.py` -> `time`
+- `app.py` -> `tkinter`
+- `app.py` -> `tkinter`
+- `app.py` -> `watchdog.events`
+- `app.py` -> `watchdog.events`
+- `app.py` -> `watchdog.observers`
+- `app.py` -> `watchdog.observers`
+- `crypto.go` -> `crypto/aes`
+- `crypto.go` -> `crypto/cipher`
+- `crypto.go` -> `crypto/rand`
+- `crypto.go` -> `encoding/base64`
+- `crypto.go` -> `encoding/hex`
+- `crypto.go` -> `errors`
+- `crypto.go` -> `io`
+- `crypto.go` -> `os`
+- `handlers.go` -> `encoding/csv`
+- `handlers.go` -> `encoding/json`
+- `handlers.go` -> `fmt`
+- `handlers.go` -> `github.com/pocketbase/dbx`
+- `handlers.go` -> `github.com/pocketbase/pocketbase`
+- `handlers.go` -> `github.com/pocketbase/pocketbase/apis`
+- `handlers.go` -> `github.com/pocketbase/pocketbase/core`
+- `handlers.go` -> `io`
+- `handlers.go` -> `net/http`
+- `handlers.go` -> `os`
+- `handlers.go` -> `path/filepath`
+- `handlers.go` -> `regexp`
+- `handlers.go` -> `strings`
+- `handlers.go` -> `time`
+- `main.go` -> `crypto/tls`
+- `main.go` -> `github.com/pocketbase/pocketbase`
+- `main.go` -> `github.com/pocketbase/pocketbase/core`
+- `main.go` -> `log`
+- `main.go` -> `net/http`
+- `main.go` -> `os`
+- `main.go` -> `path/filepath`
+- `schemas.go` -> `github.com/pocketbase/pocketbase`
+- `schemas.go` -> `github.com/pocketbase/pocketbase/core`
+- `web/js/dashboard.js` -> `addEventListener`
+- `web/js/dashboard.js` -> `alert`
+- `web/js/dashboard.js` -> `appendChild`
+- `web/js/dashboard.js` -> `apply`
+- `web/js/dashboard.js` -> `createElement`
+- `web/js/dashboard.js` -> `error`
+- `web/js/dashboard.js` -> `fetch`
+- `web/js/dashboard.js` -> `function`
+- `web/js/dashboard.js` -> `function`
+- `web/js/dashboard.js` -> `getElementById`
+- `web/js/dashboard.js` -> `getElementById`
+- `web/js/dashboard.js` -> `getElementById`
+- `web/js/dashboard.js` -> `getElementById`
+- `web/js/dashboard.js` -> `getElementById`
+- `web/js/dashboard.js` -> `getElementById`
+- `web/js/dashboard.js` -> `json`
+- `web/js/dashboard.js` -> `loadDashboard`
+- `web/js/dashboard.js` -> `loadDashboard`
+- `web/js/dashboard.js` -> `loadImplantsList`
+- `web/js/dashboard.js` -> `loadImplantsList`
+- `web/js/dashboard.js` -> `logout`
+- `web/js/dashboard.js` -> `openTerminal`
+- `web/js/dashboard.js` -> `openTerminal`
+- `web/js/dashboard.js` -> `setInterval`
