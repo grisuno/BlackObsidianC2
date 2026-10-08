@@ -1,0 +1,207 @@
+{
+  "concepts": [
+    {
+      "name": "con",
+      "files": [
+        "app.py",
+        "crypto.go",
+        "handlers.go"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "load",
+      "files": [
+        "app.py",
+        "web/js/dashboard.js"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "log",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "command",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "get",
+      "files": [
+        "crypto.go",
+        "handlers.go"
+      ],
+      "mentions": 6,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "clients",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "crea",
+      "files": [
+        "app.py",
+        "schemas.go"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "datos",
+      "files": [
+        "app.py",
+        "crypto.go"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "desde",
+      "files": [
+        "app.py",
+        "crypto.go"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "handler",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "open",
+      "files": [
+        "app.py",
+        "web/js/dashboard.js"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "compatible",
+      "files": [
+        "crypto.go",
+        "handlers.go"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "login",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "logs",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "usando",
+      "files": [
+        "crypto.go",
+        "schemas.go"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "funci",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "implants",
+      "files": [
+        "app.py",
+        "web/js/dashboard.js"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "list",
+      "files": [
+        "handlers.go",
+        "web/js/dashboard.js"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "nueva",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "python",
+      "files": [
+        "crypto.go",
+        "handlers.go"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "upload",
+      "files": [
+        "app.py",
+        "handlers.go"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `clients` centralizes 2 files; Antithesis: `command` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `con` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `funci` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `handler` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `log` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `login` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `logs` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `nueva` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `clients` centralizes 2 files; Antithesis: `upload` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `command` centralizes 2 files; Antithesis: `con` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
