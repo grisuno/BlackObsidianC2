@@ -11,7 +11,7 @@
 
 **Total Files Parsed:** 7 | **Total Symbols Extracted:** 94 | **Total Imports:** 48
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -26,13 +26,12 @@
 8. [Change Impact Analysis](#change-impact-analysis)
 9. [Suggested Linting Rules](#suggested-linting-rules)
 10. [Dataflow Analysis](#dataflow-analysis)
-11. [Concept Graph](#concept-graph)
-12. [Orphans](#orphans)
-13. [Query Recipes](#query-recipes)
-14. [Structural Knowledge Map](#structural-knowledge-map)
-15. [UML Class Diagram](#uml-class-diagram)
-16. [Code Property Graph](#code-property-graph)
-17. [Architecture Reference](#architecture-reference)
+11. [Orphans](#orphans)
+12. [Query Recipes](#query-recipes)
+13. [Structural Knowledge Map](#structural-knowledge-map)
+14. [UML Class Diagram](#uml-class-diagram)
+15. [Code Property Graph](#code-property-graph)
+16. [Architecture Reference](#architecture-reference)
     - [GO (4 files)](#go-4-files)
     - [JS (1 files)](#js-1-files)
     - [PY (1 files)](#py-1-files)
@@ -169,51 +168,6 @@ Procedural intra-function dataflow findings (zero tokens, regex-based heuristics
 | File | Function | Line | Kind | Variable | Description |
 |------|----------|------|------|----------|-------------|
 | `app.py` | `load_os_image` | 590 | `UNCHECKED_ALLOC` | `img` | Result of allocator stored in `img` is never checked against NULL. |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**21 concepts, 0 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `con` | 3 | 5 |
-| `load` | 2 | 12 |
-| `log` | 2 | 8 |
-| `command` | 2 | 6 |
-| `get` | 2 | 6 |
-| `clients` | 2 | 5 |
-| `crea` | 2 | 5 |
-| `datos` | 2 | 4 |
-| `desde` | 2 | 4 |
-| `handler` | 2 | 4 |
-| `open` | 2 | 4 |
-| `compatible` | 2 | 3 |
-| `login` | 2 | 3 |
-| `logs` | 2 | 3 |
-| `usando` | 2 | 3 |
-| `funci` | 2 | 2 |
-| `implants` | 2 | 2 |
-| `list` | 2 | 2 |
-| `nueva` | 2 | 2 |
-| `python` | 2 | 2 |
-| `upload` | 2 | 2 |
-
-### Dialectic Prompts
-
-- Thesis: `clients` centralizes 2 files; Antithesis: `command` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `con` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `funci` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `handler` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `log` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `login` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `logs` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `nueva` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `clients` centralizes 2 files; Antithesis: `upload` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `command` centralizes 2 files; Antithesis: `con` pulls 3 files with 2 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
 
 ---
 

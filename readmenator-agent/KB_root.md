@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: xx/xx/xxxx Licenci
 - Language: py
 - Symbols:
   - `setup_modern_theme` (function, line 73) `def setup_modern_theme()`
@@ -79,7 +79,6 @@
   - `configure_scroll_region` (method, line 1342) `def configure_scroll_region(event)`
 
 ## crypto.go
-- Doc: GetAESKey: GetAESKey obtiene la clave AES desde variables de entorno con validación
 - Layer: utility
 - Language: go
 - Symbols:
@@ -88,7 +87,6 @@
   - `AESDecrypt` (function, line 71) `func AESDecrypt(`
 
 ## handlers.go
-- Doc: writeLogCSV: ✅ FUNCIÓN NUEVA: Escribir logs en CSV
 - Layer: presentation
 - Language: go
 - Symbols:
@@ -117,7 +115,6 @@
   - `main` (function, line 13) `func main(`
 
 ## schemas.go
-- Doc: InitializeCollections: InitializeCollections crea las colecciones necesarias si no existen...
 - Layer: utility
 - Language: go
 - Symbols:
